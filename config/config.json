@@ -1,10 +1,12 @@
 {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+  "dialect": "postgres",
+  "host": "flora.db.elephantsql.com",
+  "port": 5432,
+  "username": "mpsgxhkn",
+  "password": "R3GmRR3Y30ZfeDyONB9OBgcZAYyMgZMb",
+  "database": "mpsgxhkn",
+  "dialectOptions": {
+    "ssl": { "require": true }
   },
   "test": {
     "username": "root",
